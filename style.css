@@ -1,0 +1,19 @@
+.header{
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+}
+.browser_type_Category_header{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(140px , 1fr));
+    gap: 20px;
+   
+}
+.browser_type_Category{
+    border: 2px solid gray;
+    padding: 20px;
+    text-align: center;
+}
+.browser_category_icon{
+    font-size: 30px;
+}
