@@ -1,0 +1,19 @@
+ /* Media query for tablets and larger screens */
+ @media (max-width: 1024px) {
+    .four_Layout_Header {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .browser_type_Category_header{
+        grid-template-columns: repeat( 3 , 1fr);
+    }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 640px) {
+    .four_Layout_Header {
+        grid-template-columns: 1fr; 
+    }
+    .browser_type_Category_header{
+        grid-template-columns: repeat( 2 , 1fr);
+    }
+}

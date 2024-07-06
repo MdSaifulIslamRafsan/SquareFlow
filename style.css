@@ -1,3 +1,21 @@
+/* common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+  }
+  html{
+    font-size: 16px;
+  }
+  :root {
+    --primary-color: #131318;
+    --tomato-color: #FF5400;
+    --secondary-color: rgba(19, 19, 24, 0.70);
+    --white-color: #fff;
+    --item-color: #424247;
+  }
+
 .header{
     max-width: 1440px;
     width: 80%;
@@ -5,8 +23,10 @@
 }
 .browser_type_Category_header{
     display: grid;
-    grid-template-columns: repeat( auto-fill, minmax(140px , 1fr));
+    grid-template-columns: repeat( 6 , 1fr);
     gap: 20px;
+    padding-top: 20px;
+    margin-bottom: 60px;
    
 }
 .browser_type_Category{
@@ -17,3 +37,16 @@
 .browser_category_icon{
     font-size: 30px;
 }
+.four_Layout_Header{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+    padding-top: 20px;
+}
+.Our_Team_section img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
