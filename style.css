@@ -19,19 +19,18 @@
 .header{
     max-width: 1440px;
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 .browser_type_Category_header{
     display: grid;
     grid-template-columns: repeat( 6 , 1fr);
     gap: 20px;
     padding-top: 20px;
-    margin-bottom: 60px;
-   
+    margin-bottom: 60px; 
 }
 .browser_type_Category{
     border: 2px solid gray;
-    padding: 20px;
+    padding: 20px 5px;
     text-align: center;
 }
 .browser_category_icon{
@@ -49,4 +48,32 @@
     border-radius: 20px;
 }
 
+.online_in_person_textarea button{
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #131318;
+    border: none;
+    border-radius: 10px;
+    display: inline;
+}
+.online_in_person_textarea h1{
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.online_in_person_textarea p{
+    margin-bottom: 20px;
+}
 
+.two_Layout_Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 20px;
+}
+.two_Layout_Header > div{
+    width: 50%;
+}
+.online_in_person_imgarea img{
+    width: 100%;
+    border-radius: 20px;
+}
