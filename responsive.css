@@ -1,3 +1,4 @@
+
  /* Media query for tablets and larger screens */
  @media (max-width: 1024px) {
     .four_Layout_Header {
@@ -5,6 +6,12 @@
     }
     .browser_type_Category_header{
         grid-template-columns: repeat( 3 , 1fr);
+    }
+    .two_Layout_Header{
+        flex-direction: column;
+    }
+    .two_Layout_Header > div{
+        width: 100%;
     }
 }
 
