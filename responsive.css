@@ -30,6 +30,15 @@
     .footer_link_header{
         grid-template-columns: repeat(3, 1fr);
       }
+      .copyRightSection{
+        flex-direction: column;
+      }
+      .two_column{
+        flex-direction: column;
+      }
+      .tab-content {
+        grid-template-columns: repeat(2, 1fr);
+      }
 }
 
 /* Media query for mobile phones */
@@ -63,5 +72,15 @@
     }
     .footer_link_header{
         grid-template-columns: repeat(2, 1fr);
+      }
+      .copyRightSection{
+        flex-direction: column;
+      }
+      .copyRightSection ul{
+        flex-direction: column;
+        gap: 10px;
+      }
+      .tab-content {
+        grid-template-columns: repeat(1, 1fr);
       }
 }

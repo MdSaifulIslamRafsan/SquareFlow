@@ -1,0 +1,145 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2020,
+      "price": 24000,
+      "mileage": 13,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "img" : "https://i.ibb.co/khwLsN2/aston-martin-2118857-1280.webp",
+      "remarks": "Great Price"
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2019,
+      "price": 20000,
+      "mileage": 25,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "img" : "image/car-1300629_1280.png"
+    },
+    {
+      "id": 3,
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2021,
+      "price": 35000,
+      "mileage": 10,
+      "transmission": "Manual",
+      "fuel_type": "Gasoline",
+      "img" : "image/car-63930_1280.jpg",
+      "remarks": "Low Mileage"
+    },
+    {
+      "id": 4,
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2022,
+      "price": 45000,
+      "mileage": 5,
+      "transmission": "Automatic",
+      "fuel_type": "Electric",
+      "img" : "image/car-1880381_1280.jpg"
+    },
+    {
+      "id": 5,
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2018,
+      "price": 28000,
+      "mileage": 28,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "img" : "image/car-5548242_1280.jpg",
+      "remarks": "Low Mileage"
+    },
+    {
+      "id": 6,
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2024,
+      "price": 40000,
+      "mileage": 20,
+      "transmission": "Automatic",
+      "fuel_type": "Petrol",
+      "img" : "image/car-race-438467_1280.jpg",
+      "horsepower": 301
+    },
+    {
+      "id": 7,
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2020,
+      "price": 37000,
+      "mileage": 20,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "img" : "image/fiat-500-4322521_1280.jpg",
+      "remarks": "Low Mileage"
+    },
+    {
+      "id": 8,
+      "make": "Audi",
+      "model": "A4",
+      "year": 2019,
+      "price": 32000,
+      "mileage": 22,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "img" : "image/ki-generated-7720226_1280.jpg"
+    },
+    {
+      "id": 9,
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2021,
+      "price": 27000,
+      "mileage": 150,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "img" : "image/vw-1835506_1280.jpg"
+      
+    },
+    {
+      "id": 10,
+      "make": "Nissan",
+      "model": "Altima",
+      "year": 2020,
+      "price": 24000,
+      "mileage": 18,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "img" : "image/car-1890494_1280.jpg",
+      "remarks": "Great Price"
+    },
+    {
+      "id": 11,
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": 2019,
+      "price": 22000,
+      "mileage": 30,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "img" : "image/uaz-8254778_1280.jpg",
+      "remarks": "Great Price"
+    },
+    {
+      "id": 12,
+      "make": "Volkswagen",
+      "model": "Passat",
+      "year": 2018,
+      "price": 21000,
+      "mileage": 35,
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "img" : "image/porsche-4795517_1280.jpg"
+      
+    }
+  ]
+}
